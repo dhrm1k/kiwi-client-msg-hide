@@ -9,4 +9,4 @@ Suppose, on a late night, you are talking about a radical idea on your computer.
 
 Conversations shouldn't be stopped. :)
 
-Currently it's just a barebones extensions that has buttons, but it is too tedious to move the cursor to the extension list every time and press the button, so I will map it to a shortcut. Open to any more fun ideas.
+~~Currently it's just a barebones extensions that has buttons, but it is too tedious to move the cursor to the extension list every time and press the button, so I will map it to a shortcut.~~ Pressing ```Ctrl + Shift + 2 ``` hides the messages on web.libera.chat.  Open to any more fun ideas.

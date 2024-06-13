@@ -2,13 +2,33 @@
   "manifest_version": 3,
   "name": "Kiwi Client Message Hide",
   "version": "1.0",
-  "description": "An extension to change visibility of messages in Kiwi client'.",
+  "description": "An extension to change visibility of messages in Kiwi client.",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup" : "popup.html"
+  },
+  "commands": {
+    "hide-messages": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2",
+        "mac": "Command+Shift+2"
+      },
+      "description": "Hide messages on the current page."
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+2",
+        "mac": "Command+Shift+2",
+        "chromeos": "Ctrl+Shift+2",
+        "linux": "Ctrl+Shift+2"
+      },
+      "description": "Execute the hide message script."
+    }
   },
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "tabs",
+    "storage"
   ],
   "background": {
     "service_worker": "background.js"
